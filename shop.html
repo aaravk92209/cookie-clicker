@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie clicker - Shop</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="higher-container">
+      <h1>Shop</h1>
+    </div>
+
+    <div class="top-container">
+      <p id="score">0</p>
+    </div>
+
+    <div class="upgrade-container">
+      <button class="upgrade" onclick="perClick(1, 50)">+1 cookies per click ($50)</button>
+      <button class="upgrade" onclick="perSec(1, 50)">+1 cookies per second ($50)</button>
+       <button class="upgrade" onclick="perClick(5, 200)">+5 cookies per click ($200)</button>
+      <button class="upgrade" onclick="perSec(5, 200)">+5 cookies per second ($200)</button>
+    </div>
+
+    <div class="button-container">
+      <a style="text-decoration: none" href="index.html">
+        <button id="button">Home</button>
+      </a>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
