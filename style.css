@@ -65,7 +65,7 @@ body {
 }
 
 .button-container {
-  top:40px;
+  top: 40px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ body {
 }
 
 .reset-container {
-  top:60px;
+  top: 60px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -82,10 +82,10 @@ body {
 
 .reset {
   background-color: red;
-  border:none;
-  color:lightcoral;
+  border: none;
+  color: lightcoral;
   padding: 5px 10px 5px 10px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .upgrade-container {
@@ -97,12 +97,19 @@ body {
 }
 
 .upgrade {
-  background-color:darkorange;
-  color:rgb(170, 75, 0);
-  border-radius:5px;
-  border:none;
-  font-size:20px;
-  padding:5px 20px 5px 20px;
-  margin:5px;
-  cursor:pointer;
+  background-color: darkorange;
+  color: rgb(170, 75, 0);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.upgrade-columns {
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
 }
